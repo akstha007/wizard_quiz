@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/houseS"
+    android:padding="10dp"
+    tools:context="com.hp.ashokkumarshrestha.wizard.QuizActivity">
+
+    <TextView
+        android:id="@+id/quizNos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Qnos"
+        android:textColor="@color/textWhite"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:id="@+id/quizBtnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnQuizOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option1"
+            android:textColor="@color/textWhite"
+            android:background="@color/trans_btn"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnQuizOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option2"
+            android:textColor="@color/textWhite"
+            android:background="@color/trans_btn"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnQuizOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option3"
+            android:textColor="@color/textWhite"
+            android:background="@color/trans_btn"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnQuizOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option4"
+            android:textColor="@color/textWhite"
+            android:background="@color/trans_btn"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quizQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/quizBtnLayout"
+        android:layout_below="@+id/quizNos"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Questions"
+        android:textColor="@color/textWhite"
+        android:textSize="26dp" />
+
+</RelativeLayout>

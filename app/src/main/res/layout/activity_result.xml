@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hp.ashokkumarshrestha.wizard.ResultActivity">
+
+    <ImageView
+        android:id="@+id/resultHatImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:maxWidth="500dp"
+        android:maxHeight="450dp"
+        android:src="@drawable/ic_hat" />
+
+    <LinearLayout
+        android:id="@+id/layoutResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/resultHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:minHeight="140dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/resultHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="House name"
+                android:textColor="@color/houseG"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/resultMatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Matching: "
+                android:textColor="@color/houseG"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/resultBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/houseG">
+
+            <View
+                android:id="@+id/viewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/bottomLayer"
+                android:alpha=".5"
+                android:background="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/bottomLayer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/btnTransparent"
+                    android:text="@string/home"
+                    android:textColor="@color/txtWhite" />
+
+                <Button
+                    android:id="@+id/btnTryAgain"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@color/btnTransparent"
+                    android:text="@string/try_again"
+                    android:textColor="@color/txtWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/viewBtn"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/resultLogo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_g" />
+
+                <TextView
+                    android:id="@+id/resultCharOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Character 1"
+                    android:textColor="@color/textWhite"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/resultCharTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Character 2"
+                    android:textColor="@color/textWhite"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/resultCharThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Character 3"
+                    android:textColor="@color/textWhite"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

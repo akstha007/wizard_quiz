@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultwand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.hp.ashokkumarshrestha.wizard.ResultpatronusActivity">
+
+    <TextView
+        android:id="@+id/txtYourWand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/patronus_result"
+        android:textColor="@color/txtWhite"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayer"
+        android:layout_below="@+id/txtYourWand"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgHouse"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="25dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_p"
+            android:background="@drawable/bg_circle_btn"
+            />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Wand description"
+            android:textColor="@color/txtWhite"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btnTransparent"
+            android:text="@string/home"
+            android:textColor="@color/txtWhite" />
+
+        <Button
+            android:id="@+id/wandTryAgain"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/btnTransparent"
+            android:text="@string/try_again"
+            android:textColor="@color/txtWhite" />
+    </LinearLayout>
+
+</RelativeLayout>

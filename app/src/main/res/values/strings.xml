@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Wizard Quiz</string>
+    <string name="try_again">Try Again</string>
+    <string name="olli_wand_shop">Ollivander\'s wand shop</string>
+    <string name="your_wand">Here\'s your wand</string>
+    <string name="sorting_house">LET\'S BE SORTED INTO HOUSE</string>
+    <string name="sorting_wand">FIND YOUR WAND</string>
+    <string name="sorting_patronus">DISCOVER YOUR PATRONUS</string>
+    <string name="patronus_result">Congratulations! \n Here\'s your Patronus</string>
+    <string name="wand_result">Congratulations! \n Here\'s your Wand</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="pottermore">SORTING HAT</string>
+    <string name="sorting_hat">FIND YOUR HOGWARTS HOUSE</string>
+    <string name="start">GOT IT</string>
+    <string name="home">HOME</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+
+    <string name="slide_1_title">Harry Potter Quiz</string>
+    <string name="slide_1_desc">Welcome to magical world of Harry Potter!</string>
+
+    <string name="slide_2_title">Hogwarts House</string>
+    <string name="slide_2_desc">Let the Sorting hat sort you into one of Hogwarts magical house!</string>
+
+    <string name="slide_3_title">Patronus</string>
+    <string name="slide_3_desc">Discover your patronus and cast a powerful charm!</string>
+
+    <string name="slide_4_title">Hogwarts House</string>
+    <string name="slide_4_desc">Let the Sorting hat sort you into one of Hogwarts magical house!</string>
+
+    <string name="slide_5_title">Find your Wand</string>
+    <string name="slide_5_desc">Discover your wand from Ollivander\'s Wand Shop!</string>
+</resources>

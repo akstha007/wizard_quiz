@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="btnIds">
+        <item name="btnOption1" type="id" />
+        <item name="btnOption2" type="id" />
+        <item name="btnOption3" type="id" />
+        <item name="btnOption4" type="id" />
+        <item name="btnOption5" type="id" />
+        <item name="btnOption6" type="id" />
+        <item name="btnOption7" type="id" />
+        <item name="btnOption8" type="id" />
+        <item name="btnOption9" type="id" />
+        <item name="btnOption10" type="id" />
+    </array>
+
+    <item name="btnLayout" type="id" />
+</resources>
